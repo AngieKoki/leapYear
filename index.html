@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href='css/styles.css'rel='stylesheet' text='text/css'>
-    <title>Document</title>
+    <title>Find Leap Year</title>
 </head>
 <body>
     <div class="container">
@@ -16,7 +16,13 @@
                  <label for="year">YEAR</label>
                  <input id="year" class="form-control" type="text">
               </div>
-    
+              <div class="form-group">
+                <input id="button" class="btn-block btn-success" value='check for leap year'type="button" onclick="isLeapYear()">
+             </div>
+             <div>
+                 <p id='answer'></p>
+             </div>
+     <script src='js/jquery-3.5.1.js'></script>
     <script src='js/scripts.js'></script>
 </body>
 </html>
